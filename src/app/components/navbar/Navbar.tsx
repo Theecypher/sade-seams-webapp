@@ -45,8 +45,10 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div>
-        <NavSearch />
+      <div className="flex gap-5">
+        <div className="hidden lg:flex">
+          <NavSearch />
+        </div>
         <div className="flex items-center gap-5 ">
           {/* <Search color="black" /> */}
           <User color="black" />
