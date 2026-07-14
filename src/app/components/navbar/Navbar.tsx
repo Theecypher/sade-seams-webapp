@@ -6,25 +6,27 @@ import Link from "next/link";
 import NavSearch from "../ui/Search";
 
 const Navbar = () => {
-  //   const imageLoader = ({ src, width, quality }: ImageLoaderProps) => {
-  //     return `/assets/novalogo.png/${src}?w=${width}&q=${quality || 75}`;
-  //   };
-
-  //   const imageStyle = {
-  //     borderRadius: "50%",
-  //     border: "1px solid #fff",
-  //   };
 
   return (
-    <div className="flex justify-between bg-white items-center px-3">
+    <div className="flex justify-between bg-white items-center px-3 md:px-10">
       <div className="flex gap-5 items-center">
         <Image
           alt="logo"
           src="/assets/novalogo.png"
           sizes="(max-width: 768px) 100px, (max-width: 1200px) 1000px, 500px"
           loading="eager"
-          width={150}
+          width={120}
+          height={170}
+          className="md:hidden"
+        />
+        <Image
+          alt="logo"
+          src="/assets/novalogo.png"
+          sizes="(max-width: 768px) 100px, (max-width: 1200px) 1000px, 500px"
+          loading="eager"
+          width={130}
           height={200}
+          className="md:flex hidden"
         />
 
         {/* <img className="w-[130px] h-37.5 md:h-[200px]  md:w-[180px]  " alt="logo" src="/assets/novalogo.png"  /> */}
