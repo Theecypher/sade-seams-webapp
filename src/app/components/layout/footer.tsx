@@ -10,7 +10,7 @@ const Footer = () => {
   const [activeLink, setActiveTab] = useState("");
   return (
     <section className="bg-black pb-40 w-full px-5 py-3 items-start  md:py-8 flex flex-col md:flex-row-reverse gap-10 md:justify-between ">
-      <div className="flex flex-col gap-5 md:flex-col-reverse md:w-[50%]">
+      <div className="flex flex-col gap-5 md:flex-col-reverse md:w-[45%] lg:w-[50%] xl:w-[40%]">
         <div className="flex justify-evenly gap-5">
           <Image
             src="/assets/Instagram.png"
@@ -97,7 +97,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="md:flex w-full gap-8 md:w-[50%]">
+      <div className="md:flex w-full gap-8 lg:w-[50%] md:w-[45%]">
         <div className="py-4 xl:flex flex-col gap-5 hidden">
           <p className="text-[12px] font-bold text-white">
             SHOP FASTER WITH THE APP
