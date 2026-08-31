@@ -11,14 +11,14 @@ export const FooterData = [
   },
   {
     name: "Company",
-    links: ["lorem", "lorem", "lorem", "lorem"],
+    links: ["loremt", "loreme", "loremw", "loremq"],
   },
   {
     name: "Quick lines",
-    links: ["lorem", "lorem", "lorem", "lorem"],
+    links: ["loremm", "loremj", "loremf", "loremr"],
   },
   {
     name: "Legal",
-    links: ["lorem", "lorem", "lorem", "lorem"],
+    links: ["loremi", "loremo", "loremp", "loreml"],
   },
 ];

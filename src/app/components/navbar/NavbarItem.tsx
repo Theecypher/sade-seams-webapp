@@ -9,7 +9,7 @@ const NavbarItem = () => {
   const [activeTab, setActiveTab] = useState("women");
 
   return (
-    <div className="flex gap-5 border-b pb-px border-[#ccc] md:border-none w-full items-center justify-evenly ">
+    <div className="flex gap-5 border-b pb-px border-[#ccc] md:border-none w-full items-center justify-evenly md:gap-0 md:mx-5 md:justify-between lg:gap-5 ">
       {NavItem.map((item) => {
         const isActive = activeTab === item.name;
 
