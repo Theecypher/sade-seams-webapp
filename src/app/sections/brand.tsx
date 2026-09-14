@@ -1,14 +1,27 @@
-"use client"
+"use client";
 
-import BrandHeader from "./brandheader";
+import BlackButton from "../components/button/blackButton";
+import BrandContent from "./brandcontent";
+import { BrandHeader } from "./brandheader";
 
-const ShopByBrand = () => {
-    return ( 
-        <div className="mt-8 mx-5 flex flex-col gap-3 mb-4 overflow-hidden">
-            <h4 className="text-[18px] font-black tracking-tight">SHOP THE LATEST</h4>
-            <BrandHeader />
-        </div>
-     );
-}
- 
-export default ShopByBrand;
+const BrandSection = () => {
+  return (
+    <section className="mt-8 flex flex-col">
+      <h2 className="font-black section-padding">SHOP THE LATEST</h2>
+
+      <BrandHeader />
+
+      <BrandContent />
+
+      <div className="mt-8 mb-5 px-4 w-full">
+
+    <BlackButton className="text-white w-full font-bold">
+      Load More
+    </BlackButton>
+      </div>
+
+    </section>
+  );
+};
+
+export default BrandSection;

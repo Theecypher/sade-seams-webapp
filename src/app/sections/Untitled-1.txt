@@ -1,0 +1,37 @@
+import Link from "next/link";
+import { brandHeader } from "../data/brandheader";
+import { useEffect, useState } from "react";
+import Navlink from "next/link";
+
+const BrandHeader = () => {
+  const [activeTab, setActiveTab] = useState(0);
+  const [hasScrollToTop, setHasScrollToTop] = useState(false);
+
+  const handleLinkClick = (index: any) => {
+    // console.log("clcicked: index");
+
+    setActiveTab(index);
+  };
+
+  return (
+    <div className="flex gap-5 overflow-x-auto scrollbar-none [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden overflow-y-hidden mb-5">
+      {brandHeader.map((item, index) => {
+        const isActive = activeTab === index;
+
+        return (
+          <button
+            key={index}
+            onClick={() => handleLinkClick(index)}
+            className={` ${isActive ? "bg-black" : "bg-white"} border-[#ccc] text-[13px] mt-2 outline-none bg-white border whitespace-nowrap py-1.5  px-4 text-black rounded-3xl`}
+          >
+            {item.name}
+          </button>
+
+        
+        );
+      })}
+    </div>
+  );
+};
+
+export default BrandHeader;
