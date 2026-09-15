@@ -4,8 +4,8 @@ import { ArrowBigRight, ArrowRight, ChevronRight } from "lucide-react";
 
 const TrendReport = () => {
   return (
-    <section className="mt-8 md:mt-15 px-3 flex flex-col gap-10">
-      <h5 className="font-bold text-2xl ">Trending Clothes</h5>
+    <section className="mt-5 md:mt-15 px-3 flex flex-col gap-2">
+      <h5 className="font-black text-2xl uppercase">The Trend report</h5>
 
       <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
         {trendData.map((item) => {
