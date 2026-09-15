@@ -51,8 +51,8 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row">
           <div className="flex flex-col gap-5">
-            <h3 className="text-white text-[12px] font-bold">
-              SIGNUP FOR DISCOUNTS + UPDATES
+            <h3 className="text-white text-[12px] font-black">
+              Signup for discount & updates
             </h3>
 
             <div className="px-2 flex justify-between items-center h-14.5 rounded-sm bg-white ">
@@ -69,11 +69,8 @@ const Footer = () => {
 
             <div className="flex flex-col gap-3">
               <p className="text-[#a3a2a2] text-[12px] md:text-base">
-                By signing up for email, you agree to fashionNova{" "}
-                <Link className="underline" href="*">
-                  Terms&amp; Conditions
-                </Link>{" "}
-                and{" "}
+                By signing up for email, you agree to fashionNova 
+                <Link className="underline" href="*">Terms&amp; Conditions</Link>{" "}and{" "}
                 <Link className="underline" href="*">
                   privacy policy
                 </Link>
@@ -134,7 +131,7 @@ const Footer = () => {
                     {activeLink === item.name && (
                       <ul className="my-3 flex flex-col gap-3">
                         {item.links.map((item) => (
-                          <li className="text-sm capitalize text-[12px] text-[#808080]">
+                          <li key={item} className="text-sm capitalize text-[12px] text-[#808080]">
                             {item}
                           </li>
                         ))}
@@ -145,7 +142,7 @@ const Footer = () => {
                   <div className="hidden lg:flex flex-col">
                     <ul className="my-3 flex flex-col gap-3">
                       {item.links.map((item) => (
-                        <li className="text-sm capitalize text-[12px] text-[#808080]">
+                        <li  key={item} className="text-sm capitalize text-[12px] text-[#808080]">
                           {item}
                         </li>
                       ))}

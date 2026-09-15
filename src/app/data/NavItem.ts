@@ -49,7 +49,7 @@ export const sidebarItem = [
     href: "/",
   },
   {
-    name: "Basic tops",
+    name: "basictops",
     label: "Basic tops",
     href: "/",
   },
@@ -79,5 +79,17 @@ export const sidebarItem = [
     label: "Sport wears",
     href: "/",
   },
+   {
+    name: "newarrivals",
+    label: "New Arrivals",
+    href: "/",
+  },
+   {
+    name: "Orders",
+    label: "Order",
+    href: "/",
+  },
+
+  
   
 ];

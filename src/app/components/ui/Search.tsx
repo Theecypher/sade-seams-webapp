@@ -3,9 +3,13 @@ import { Search } from "lucide-react";
 const NavSearch = () => {
   return (
     <div className="w-full justify-center items-center flex">
-      <div className="flex gap-3 border border-[#ccc] rounded-[30px] px-5 w-100 py-3">
+      <div className="flex gap-3 border border-[#ccc] rounded-[30px] px-5 w-100 lg:w-87.5 py-3">
         <Search color="black" />
-        <input type="text" placeholder="Search within women's clothes" className="text-black outline-none border-none w-full text-sm" />
+        <input
+          type="text"
+          placeholder="Search within women's clothes"
+          className="text-black outline-none border-none w-full text-sm"
+        />
       </div>
     </div>
   );
