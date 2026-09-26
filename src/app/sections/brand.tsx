@@ -6,20 +6,18 @@ import { BrandHeader } from "./brandheader";
 
 const BrandSection = () => {
   return (
-    <section className="mt-8 flex flex-col">
+    <section className="my-6 flex flex-col px-20 md:mb-20">
       <h2 className="font-black section-padding">SHOP THE LATEST</h2>
 
       <BrandHeader />
 
       <BrandContent />
 
-      <div className="mt-8 mb-5 px-4 w-full">
-
-    <BlackButton className="text-white w-full font-bold">
-      Load More
-    </BlackButton>
-      </div>
-
+      {/* <div className="mt-8 mb-5 px-4 w-full">
+        <BlackButton className="text-white w-full font-bold">
+          Load More
+        </BlackButton>
+      </div> */}
     </section>
   );
 };
