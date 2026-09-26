@@ -4,7 +4,7 @@ import { ArrowBigRight, ArrowRight, ChevronRight } from "lucide-react";
 
 const TrendReport = () => {
   return (
-    <section className="mt-5 md:mt-15 px-3 flex flex-col gap-2">
+    <section className="mt-5 md:mt-15 md-p flex flex-col gap-2">
       <h5 className="font-black text-xl uppercase">The Trend report</h5>
 
       <div className="grid grid-cols-2 gap-x-2 gap-y-4 md:grid-cols-4">

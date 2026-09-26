@@ -23,14 +23,6 @@ export const brandHeader = [
         name:  "tops",
         link: ""
     },
-    {
-        name:  "jeans",
-        link: ""
-    },
-    {
-        name:  "suits",
-        link: ""
-    },
     // {
     //     name:  "Jumpsuits",
     //     link: ""

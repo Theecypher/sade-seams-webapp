@@ -13,7 +13,7 @@ export const BrandData = [
       "Elegant oversized cotton shirt with a relaxed fit, perfect for casual and everyday wear.",
     name: "Classic Oversized Shirt",
     price: "25000",
-    discount: "10",
+    // discount: "",
   },
 
   {
@@ -22,7 +22,7 @@ export const BrandData = [
       "Stylish two-piece outfit designed with a comfortable fit and modern finishing.",
     name: "Luna Two-Piece Set",
     price: "38000",
-    discount: "15",
+    // discount: "15",
   },
 
   {
@@ -31,7 +31,7 @@ export const BrandData = [
       "Simple and elegant midi dress made for effortless everyday styling.",
     name: "Amara Midi Dress",
     price: "42000",
-    discount: "20",
+    // discount: "20",
   },
 
   {
@@ -40,7 +40,7 @@ export const BrandData = [
       "Lightweight wide-leg trousers with a flattering silhouette and comfortable waistband.",
     name: "Sienna Wide-Leg Trousers",
     price: "30000",
-    discount: "10",
+    // discount: "10",
   },
 
   {
@@ -49,7 +49,7 @@ export const BrandData = [
       "Chic fitted top with a clean design that pairs easily with jeans, skirts, or trousers.",
     name: "Mila Fitted Top",
     price: "18000",
-    discount: "5",
+    // discount: "5",
   },
 
   {
@@ -58,7 +58,7 @@ export const BrandData = [
       "Flowy maxi dress featuring a relaxed silhouette for a comfortable and elegant look.",
     name: "Zara Flow Maxi Dress",
     price: "45000",
-    discount: "15",
+    // discount: "15",
   },
 
   {
@@ -67,6 +67,14 @@ export const BrandData = [
       "Minimalist denim skirt with a versatile design suitable for casual styling.",
     name: "Ava Denim Skirt",
     price: "28000",
-    discount: "10",
+    // discount: "10",
+  },
+   {
+    img: "/assets/browndress.jpg",
+    description:
+      "lorem lorem ipsimum lorem ipisum suitable for casual styling",
+    name: "Luna Two-Piece Set",
+    price: "38000",
+    // discount: "15",
   },
 ];

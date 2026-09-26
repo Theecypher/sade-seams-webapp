@@ -46,3 +46,21 @@ body {
   padding-left: 25px;
 }
 
+.md-p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sm-p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Targets tablets in portrait and landscape up to small laptops */
+@media (min-width: 768px) {
+  /* Your tablet-specific CSS here */
+  .section-padding {
+  padding-left: 0px;
+}
+
+}

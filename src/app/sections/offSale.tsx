@@ -6,7 +6,7 @@ const OffSale = () => {
             <div className="p-5 flex justify-center items-center font-bold gap-2  text-white flex-col">
                 <p className="font-bold text-xl">60-80% OFF SALE</p>
                 <p>
-                    <Link className="text-[12px] underline" href="#">SHOP NOW</Link>
+                    <Link className="text-[12px] text-[#ccc] underline" href="#">SHOP NOW</Link>
                 </p>
             </div>
         </div>
