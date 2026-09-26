@@ -26,7 +26,7 @@ const Navbar = () => {
     <div className="flex flex-col">
       <div className="flex flex-col gap-1.5">
         {/* <div> */}
-          <div className="flex  border border-amber-400 justify-between bg-white items-center -my-1.5 md:my-0 px-3 md:px-10">
+          <div className="flex justify-between bg-white items-center -my-1.5 md:my-0 px-3 md:px-10">
             <div className="flex gap-5 items-center ">
               <Image
                 alt="logo"
@@ -76,11 +76,11 @@ const Navbar = () => {
           </div>
 
 
-        <div className="lg:hidden border border-yellow-400 w-full flex ">
+        <div className="lg:hidden w-full flex ">
           <NavbarItem />
         </div>
 
-        <div className="md:hidden flex border border-green-400 justify-center">
+        <div className="md:hidden flex justify-center">
           <NavSearch />
         </div>
       </div>
