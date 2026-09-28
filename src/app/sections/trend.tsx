@@ -10,7 +10,7 @@ const TrendReport = () => {
       <div className="grid grid-cols-2 gap-x-2 gap-y-4 md:grid-cols-4">
         {trendData.map((item) => {
           return (
-            <div className="flex flex-col w-full gap-1  " key={item.name}>
+            <div className="flex flex-col w-full gap-1  " key={item.name}>kkk
               {/* <Image alt=""  src={item.img} /> */}
               <img src={item.img} alt="" className="w-full aspect-3/4 object-cover" />
               <div className="flex justify-center items-center md:px-2">

@@ -6,7 +6,7 @@ import { BrandHeader } from "./brandheader";
 
 const BrandSection = () => {
   return (
-    <section className="my-6 flex flex-col px-20 md:mb-20">
+    <section className="my-6 flex flex-col md:px-20 md:mb-20">
       <h2 className="font-black section-padding">SHOP THE LATEST</h2>
 
       <BrandHeader />

@@ -69,8 +69,11 @@ const Footer = () => {
 
             <div className="flex flex-col gap-3">
               <p className="text-[#a3a2a2] text-[12px] md:text-base">
-                By signing up for email, you agree to fashionNova 
-                <Link className="underline" href="*">Terms&amp; Conditions</Link>{" "}and{" "}
+                By signing up for email, you agree to fashionNova
+                <Link className="underline" href="*">
+                  Terms&amp; Conditions
+                </Link>
+                and
                 <Link className="underline" href="*">
                   privacy policy
                 </Link>
@@ -85,7 +88,6 @@ const Footer = () => {
                 Msg &amp; data rates may apply. By submitting your phone number,
                 and signing up for texts, you also agree to our&#32;
                 <Link href="*" className="underline">
-                  {" "}
                   Terms&amp;Privacy
                 </Link>
               </p>
@@ -131,7 +133,10 @@ const Footer = () => {
                     {activeLink === item.name && (
                       <ul className="my-3 flex flex-col gap-3">
                         {item.links.map((item) => (
-                          <li key={item} className="text-sm capitalize text-[12px] text-[#808080]">
+                          <li
+                            key={item}
+                            className="text-sm capitalize text-[12px] text-[#808080]"
+                          >
                             {item}
                           </li>
                         ))}
@@ -142,7 +147,10 @@ const Footer = () => {
                   <div className="hidden lg:flex flex-col">
                     <ul className="my-3 flex flex-col gap-3">
                       {item.links.map((item) => (
-                        <li  key={item} className="text-sm capitalize text-[12px] text-[#808080]">
+                        <li
+                          key={item}
+                          className="text-sm capitalize text-[12px] text-[#808080]"
+                        >
                           {item}
                         </li>
                       ))}
