@@ -85,10 +85,41 @@ export const sidebarItem = [
     href: "/",
   },
    {
-    name: "Orders",
+    name: "orders",
     label: "Order",
     href: "/",
   },
+  {
+    name: "seamsdeals",
+    label: "SeamsDeals",
+    href: "/"
+  },
+  {
+    name: "halloween",
+    label: "halloween",
+    href: "/",
+  },
+  {
+    name: "christmas",
+    label: "christmas",
+    href: "/",
+  },
+  {
+    name: "jackets",
+    label: "jackets",
+    href: "/",
+  },
+  {
+    name: "formalshop",
+    label: "formal shop",
+    href: "/",
+  },
+  {
+    name: "lingerie&sleep",
+    label: "Lingerie & sleep",
+    href: "/",
+  },
+
 
   
   

@@ -1,15 +1,29 @@
-import { Search } from "lucide-react";
+import { Search, Camera } from "lucide-react"
 
-const NavSearch = () => {
+type NavSearchProps = {
+  hasSearchImage?: boolean;
+};
+
+
+    // <div
+    //     className={twMerge(
+    //       "w-full md:w-1/2 bg-white flex flex-col items-center py-8 px-4",
+    //       className
+    //     )}
+    //   ></div>
+
+const NavSearch = ({ hasSearchImage }: NavSearchProps) => {
   return (
     <div className="w-full justify-center items-center flex">
-      <div className="flex gap-3 border border-[#ccc] rounded-[30px] px-5 w-100 lg:w-87.5 py-3">
-        <Search color="black" />
+      <div className="flex border items-center border-[#ccc] gap-1 rounded-[30px] px-5 w-full py-1.75 ">
+        <Search color="#5b5b5b" opacity={80} />
         <input
           type="text"
-          placeholder="Search within women's clothes"
-          className="text-black outline-none border-none w-full text-sm"
+          placeholder="Search within Women's Clothing."
+          className="text-black outline-none border-none w-full text-[14px]"
         />
+
+        {hasSearchImage && <Camera  width={25} height={25} className="" />}
       </div>
     </div>
   );
