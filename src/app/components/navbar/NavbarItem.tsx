@@ -9,21 +9,32 @@ const NavbarItem = () => {
   const [activeTab, setActiveTab] = useState("women");
 
   return (
-    <div className="flex gap-5 border-b pb-px border-[#ccc] md:border-none w-full items-center justify-evenly md:gap-0 md:mx-5 md:justify-between lg:gap-5 ">
+    <div className="flex gap-5 items-center border-b border-[#ccc] lg:border-none w-full  md:gap-0 justify-between lg:gap-5 ">
+      {/* // <div className="flex "> */}
       {NavItem.map((item) => {
         const isActive = activeTab === item.name;
 
         return (
-          // <div className="w-full">
-            <Navlink
-              className={`${isActive ? "border-b-3 border-black" : ""} text-sm font-semibold uppercase`}
-              key={item.label}
+          <div className="flex flex-col gap-3">
+            <div
               onClick={() => setActiveTab(item.name)}
-              href={item.href}
+              className="flex flex-col items-stretch "
             >
-              {item.label}
-            </Navlink>
-          // </div>
+              <Navlink
+                href={item.href}
+                // onClick={() => setActiveTab(item.name)}
+                className="text-sm font-semibold uppercase"
+              >
+                {item.label}
+              </Navlink>
+
+              <span
+                className={`mt-2 xl:mt-5 h-0.75 bg-gray-800 w-full ${
+                  isActive ? "bg-black" : "bg-transparent"
+                }`}
+              ></span>
+            </div>
+          </div>
         );
       })}
     </div>

@@ -1,13 +1,17 @@
 import { BrandData } from "./brand/brand";
 import formatAmount from "../utils/formatAmoount";
 import img7 from "/assets/icons/add-to-cart.png";
+import Link from "next/link";
+
 
 const BrandContent = () => {
+ 
+
   return (
     <div className="w-full grid grid-cols-2 min-[989px]:grid-cols-3 min-[1200px]:grid-cols-4  gap-x-0.5 md:gap-1.5 gap-y-7 md:gap-y-5">
       {BrandData.map((item) => {
         return (
-          <div>
+          <Link href={`/products/${item.id}`} key={item.id} className="w-full">
             <div className="flex flex-col relative">
               <img
                 src={item.img}
@@ -30,7 +34,7 @@ const BrandContent = () => {
                 {item.description}
               </p>
             </div>
-          </div>
+          </Link>
         );
       })}
     </div>

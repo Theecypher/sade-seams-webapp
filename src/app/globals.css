@@ -62,4 +62,8 @@ body {
   .section-padding {
   padding-left: 0px;
 }
+.md-p {
+  padding-left: 80px;
+  padding-right: 80px;
+}
 }

@@ -9,6 +9,7 @@ import img7 from "/assets/whitedress.jpg";
 export const BrandData = [
   {
     img: "/assets/bluedress.jpg",
+    id: "abc123xyz",
     description:
       "Elegant oversized cotton shirt with a relaxed fit, perfect for casual and everyday wear.",
     name: "Classic Oversized Shirt",
@@ -18,6 +19,7 @@ export const BrandData = [
 
   {
     img: "/assets/browndress.jpg",
+    id: "abc124xyz",
     description:
       "Stylish two-piece outfit designed with a comfortable fit and modern finishing.",
     name: "Luna Two-Piece Set",
@@ -27,6 +29,7 @@ export const BrandData = [
 
   {
     img: "/assets/crepedress.jpg",
+    id: "abc125xyz",
     description:
       "Simple and elegant midi dress made for effortless everyday styling.",
     name: "Amara Midi Dress",
@@ -36,6 +39,7 @@ export const BrandData = [
 
   {
     img: "/assets/dress1.jpg",
+    id: "abc126xyz",
     description:
       "Lightweight wide-leg trousers with a flattering silhouette and comfortable waistband.",
     name: "Sienna Wide-Leg Trousers",
@@ -45,6 +49,7 @@ export const BrandData = [
 
   {
     img: "/assets/dress2.jpg",
+    id: "abc127xyz",
     description:
       "Chic fitted top with a clean design that pairs easily with jeans, skirts, or trousers.",
     name: "Mila Fitted Top",
@@ -54,6 +59,7 @@ export const BrandData = [
 
   {
     img: "/assets/lightbluedress.jpg",
+    id: "abc128xyz",
     description:
       "Flowy maxi dress featuring a relaxed silhouette for a comfortable and elegant look.",
     name: "Zara Flow Maxi Dress",
@@ -63,6 +69,7 @@ export const BrandData = [
 
   {
     img: "/assets/whitedress.jpg",
+    id: "abc129xyz",
     description:
       "Minimalist denim skirt with a versatile design suitable for casual styling.",
     name: "Ava Denim Skirt",
@@ -71,6 +78,7 @@ export const BrandData = [
   },
    {
     img: "/assets/browndress.jpg",
+    id: "abc133xyz",
     description:
       "lorem lorem ipsimum lorem ipisum suitable for casual styling",
     name: "Luna Two-Piece Set",
