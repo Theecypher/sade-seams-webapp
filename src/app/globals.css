@@ -32,15 +32,30 @@ body {
   background-position: center;
   background-size: cover;
   height: 500px;
+   /* height: clamp(500px, 80vh, 800px); */
+}
+
+/* This CSS applies ONLY to 768px and above */
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: url("/assets/bg-female.jpg");
+    height: 40vh;
+  }
+    /* Your tablet-specific CSS here */
+  .section-padding {
+    padding-left: 0px;
+  }
+  .md-p {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
 }
 
 /* This CSS applies ONLY to screens 1024px wide or larger */
 @media screen and (min-width: 1024px) {
   .hero {
     background-image: url("/assets/bg-female.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 80vh;
+    height: 60vh;
   }
 }
 
@@ -58,14 +73,9 @@ body {
   padding-right: 10px;
 }
 
-/* Targets tablets in portrait and landscape up to small laptops */
-@media (min-width: 768px) {
-  /* Your tablet-specific CSS here */
-  .section-padding {
-    padding-left: 0px;
-  }
-  .md-p {
-    padding-left: 80px;
-    padding-right: 80px;
+@media screen and (min-width: 1440px) {
+  .hero {
+    background-image: url("/assets/bg-female.jpg");
+    height: 80vh;
   }
 }

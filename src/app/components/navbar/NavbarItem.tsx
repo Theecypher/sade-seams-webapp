@@ -15,7 +15,7 @@ const NavbarItem = () => {
         const isActive = activeTab === item.name;
 
         return (
-          <div className="flex flex-col gap-3">
+          <div key={item.name} className="flex flex-col gap-3">
             <div
               onClick={() => setActiveTab(item.name)}
               className="flex flex-col items-stretch "
