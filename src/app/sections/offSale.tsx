@@ -10,7 +10,7 @@ type offSaleProps = {
 
 const OffSale = ({
   title = "60-80% OFF SALE",
-  description = "SHOP NOW<",
+  description = "SHOP NOW",
   className,
   layoutClassName,
 }: offSaleProps) => {
