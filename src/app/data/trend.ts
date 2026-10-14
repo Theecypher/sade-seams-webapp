@@ -3,7 +3,7 @@ import img1 from "/assets/img2.png";
 export const trendData = [
   {
     img: "/assets/img2.jpg",
-    name: "Marching Orders",
+    name: "Scary & Horror Costumes",
     detail: "",
   },
   {

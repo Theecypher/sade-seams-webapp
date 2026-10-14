@@ -13,7 +13,7 @@ const TrendReport = () => {
             <div className="flex flex-col w-full gap-1  " key={item.name}>
               {/* <Image alt=""  src={item.img} /> */}
               <img src={item.img} alt="" className="w-full aspect-3/4 object-cover" />
-              <div className="flex justify-center items-center md:px-2">
+              <div className="flex justify-center gap-2 items-center md:px-2">
                 <p className="text-sm font-semibold">{item.name}</p>
                 <ChevronRight size={14} />
               </div>
