@@ -96,7 +96,7 @@ const Navbar = () => {
           <NavSearch hasSearchImage={true} />
         </div>
 
-        <div className="hidden lg:flex w-full gap-4 scrollbar-none capitalize overflow-auto">
+        <div className="hidden lg:flex w-full gap-3 scrollbar-none capitalize overflow-auto">
           {sidebarItem.map((item) => (
             <div className="flex text-nowrap w-full items-center gap-1 hover:bg-[#f0ecec] py-1 px-2  rounded-2xl">
               <Link
