@@ -86,7 +86,8 @@ const Footer = () => {
                 when signing up. Consent is not a condition of any purchase.
                 Reply HELP for help and STOP to cancel. Msg frequency varies.
                 Msg &amp; data rates may apply. By submitting your phone number,
-                and signing up for texts, you also agree to our&#32;
+                and signing up for texts, you also agree to our
+                {/* &#32; */}
                 <Link href="*" className="underline">
                   Terms&amp;Privacy
                 </Link>

@@ -98,12 +98,14 @@ const Navbar = () => {
 
         <div className="hidden lg:flex w-full gap-3 scrollbar-none capitalize overflow-auto">
           {sidebarItem.map((item) => (
-            <div className="flex text-nowrap w-full items-center gap-1 hover:bg-[#f0ecec] py-1 px-2  rounded-2xl">
+            <div
+              key={item.name}
+              className="flex text-nowrap w-full items-center gap-1 hover:bg-[#f0ecec] py-1 px-2  rounded-2xl"
+            >
               <Link
                 className="text-sm "
                 href={item.href}
                 onClick={() => handleNavItemClick(item.name)}
-                key={item.name}
               >
                 {item.label}
               </Link>
