@@ -6,6 +6,8 @@ import img5 from "/assets/dress2.jpg";
 import img6 from "/assets/lightbluedress.jpg";
 import img7 from "/assets/whitedress.jpg";
 
+
+
 export const BrandData = [
   {
     img: "/assets/bluedress.jpg",
@@ -14,29 +16,31 @@ export const BrandData = [
       "Elegant oversized cotton shirt with a relaxed fit, perfect for casual and everyday wear.",
     name: "Classic Oversized Shirt",
     price: "25000",
+    deal: "NovaDeals starting at $5! Prices as Marked",
+    discount: "5",
     otherImages: [
       {
-        img: "/assets/jpg/lingerie1.jpg",
+        img: "/assets/browndress.jpg",
         id: "adb57655",
       },
       {
-        img: "/assets/jpg/lingerie2.jpg",
+        img: "/assets/crepedress.jpg",
         id: "adb57623",
       },
       {
-        img: "/assets/jpg/lingerie3.jpg",
+        img: "/assets/dress1.jpg",
         id: "adb572535",
       },
       {
-        img: "/assets/jpg/lingerie4.jpg",
+        img: "/assets/lightbluedress.jpg",
         id: "adb576452",
       },
       {
-        img: "/assets/jpg/lingerie6.jpg",
+        img: "/assets/browndress.jpg",
         id: "adb576112",
       },
       {
-        img: "/assets/jpg/lingerie.jpg",
+        img: "/assets/whitedress.jpg",
         id: "adb57890",
       },
     ],
@@ -65,56 +69,56 @@ export const BrandData = [
     // discount: "20",
   },
 
-  {
-    img: "/assets/dress1.jpg",
-    id: "abc126xyz",
-    description:
-      "Lightweight wide-leg trousers with a flattering silhouette and comfortable waistband.",
-    name: "Sienna Wide-Leg Trousers",
-    price: "30000",
-     otherImages: [],
-    // discount: "10",
-  },
+  // {
+  //   img: "/assets/dress1.jpg",
+  //   id: "abc126xyz",
+  //   description:
+  //     "Lightweight wide-leg trousers with a flattering silhouette and comfortable waistband.",
+  //   name: "Sienna Wide-Leg Trousers",
+  //   price: "30000",
+  //    otherImages: [],
+  //   // discount: "10",
+  // },
 
-  {
-    img: "/assets/dress2.jpg",
-    id: "abc127xyz",
-    description:
-      "Chic fitted top with a clean design that pairs easily with jeans, skirts, or trousers.",
-    name: "Mila Fitted Top",
-    price: "18000",
-     otherImages: [],
-    // discount: "5",
-  },
+  // {
+  //   img: "/assets/dress2.jpg",
+  //   id: "abc127xyz",
+  //   description:
+  //     "Chic fitted top with a clean design that pairs easily with jeans, skirts, or trousers.",
+  //   name: "Mila Fitted Top",
+  //   price: "18000",
+  //    otherImages: [],
+  //   // discount: "5",
+  // },
 
-  {
-    img: "/assets/lightbluedress.jpg",
-    id: "abc128xyz",
-    description:
-      "Flowy maxi dress featuring a relaxed silhouette for a comfortable and elegant look.",
-    name: "Zara Flow Maxi Dress",
-    price: "45000",
-     otherImages: [],
-    // discount: "15",
-  },
+  // {
+  //   img: "/assets/lightbluedress.jpg",
+  //   id: "abc128xyz",
+  //   description:
+  //     "Flowy maxi dress featuring a relaxed silhouette for a comfortable and elegant look.",
+  //   name: "Zara Flow Maxi Dress",
+  //   price: "45000",
+  //    otherImages: [],
+  //   // discount: "15",
+  // },
 
-  {
-    img: "/assets/whitedress.jpg",
-    id: "abc129xyz",
-    description:
-      "Minimalist denim skirt with a versatile design suitable for casual styling.",
-    name: "Ava Denim Skirt",
-    price: "28000",
-     otherImages: [],
-    // discount: "10",
-  },
-  {
-    img: "/assets/browndress.jpg",
-    id: "abc133xyz",
-    description: "lorem lorem ipsimum lorem ipisum suitable for casual styling",
-    name: "Luna Two-Piece Set",
-    price: "38000",
-     otherImages: [],
-    // discount: "15",
-  },
+  // {
+  //   img: "/assets/whitedress.jpg",
+  //   id: "abc129xyz",
+  //   description:
+  //     "Minimalist denim skirt with a versatile design suitable for casual styling.",
+  //   name: "Ava Denim Skirt",
+  //   price: "28000",
+  //    otherImages: [],
+  //   // discount: "10",
+  // },
+  // {
+  //   img: "/assets/browndress.jpg",
+  //   id: "abc133xyz",
+  //   description: "lorem lorem ipsimum lorem ipisum suitable for casual styling",
+  //   name: "Luna Two-Piece Set",
+  //   price: "38000",
+  //    otherImages: [],
+  //   // discount: "15",
+  // },
 ];
