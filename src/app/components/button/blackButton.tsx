@@ -22,7 +22,7 @@ const BlackButton: React.FC<BlackButtonProps> = ({
       type={type}
       onClick={onClick}
       disabled={disabled || loading}
-      className={`bg-black text-white font-medium py-3.5 px-2 rounded-[25px] mb-2 
+      className={`bg-black text-white font-medium px-2 rounded-[25px] mb-2 
   hover:bg-black/90 transition-colors 
   disabled:bg-gray-300 disabled:opacity-70 disabled:cursor-not-allowed 
   ${className}`}
