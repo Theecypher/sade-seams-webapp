@@ -70,34 +70,38 @@ const ProductPage = async ({ params }: ProductPageProps) => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-3 px-3 py-0.5">
-        {/* Product Name */}
-        <div className="">
-          <p className="text-[12px] font-semibold">{product.name}</p>
-        </div>
+      <div className="flex flex-col gap-1 mt-3 px-3 py-0.5">
+        <div className="flex flex-col gap-1">
+          {/* Product Name */}
+          <div className="">
+            <p className="text-[12px] font-semibold">{product.name}</p>
+          </div>
 
-        {/* PRODUCT PRICE  */}
-        <div>
-          <div className="flex items-center gap-1">
-            <p className="text-red-700 font-semibold text-base">
-              {formatAmount(discountedPrice)}
-            </p>
-            <p className="text-black line-through text-sm">
-              {formatAmount(Number(product.price))}
+          {/* PRODUCT PRICE  */}
+          <div>
+            <div className="flex items-center gap-1">
+              <p className="text-red-700 font-semibold text-base">
+                {formatAmount(discountedPrice)}
+              </p>
+              <p className="text-black line-through text-sm">
+                {formatAmount(Number(product.price))}
+              </p>
+            </div>
+          </div>
+
+          {/* PRODUCT DEAL */}
+          <div>
+            <p className="text-[12px] text-red-700 font-semibold">
+              {product.deal}
             </p>
           </div>
         </div>
 
-        {/* PRODUCT DEAL */}
-        <div>
-          <p className="text-[12px] text-red-700 font-semibold">
-            {product.deal}
-          </p>
-        </div>
-
         <SizeRuler />
 
-        <ProductColour />
+        <div className="mt-4">
+          <ProductColour />
+        </div>
 
         {/* Add to Cart Button */}
         <div className="mt-1 w-full flex flex-col gap-2">
@@ -105,12 +109,16 @@ const ProductPage = async ({ params }: ProductPageProps) => {
             30-day Returns: Store Credit
           </p>
           <div className="flex gap-2 items-center ">
-            <BlackButton className="w-full py-2.5  font-semibold">Add to Bag</BlackButton>
+            <BlackButton className="w-full py-2.5  font-semibold">
+              Add to Bag
+            </BlackButton>
             <Heart className="w-12 h-12 p-3  shrink-0 border border-black rounded-[100%]" />
           </div>
         </div>
 
-        <ProductDescription />
+        <div className="w-full border-t border-[#E1E1E1] mt-3 py-2">
+          <ProductDescription />
+        </div>
       </div>
     </div>
   );

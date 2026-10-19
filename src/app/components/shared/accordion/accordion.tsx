@@ -21,7 +21,7 @@ const Accordion = ({ title, icon, children, defaultOpen }: AccordionProps) => {
         className="flex w-full items-center justify-between text-left"
         onClick={() => setIsOpen((prev) => !prev)}
       >
-        <span className="flex items-center gap-2">
+        <span className="flex text-[12px] font-bold items-center gap-2">
           {icon}
           <span>{title}</span>
         </span>
