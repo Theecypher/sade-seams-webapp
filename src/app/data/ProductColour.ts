@@ -23,22 +23,22 @@ export const ProductColourData = [
     colourText: "Beige",
     hex: "#E8D5B7",
   },
-  {
-    id: "colour-005",
-    img: "",
-    colourText: "Navy Blue",
-    hex: "#173B70",
-  },
-  {
-    id: "colour-006",
-    img: "",
-    colourText: "Gray",
-    hex: "#A3A3A3",
-  },
-  {
-    id: "colour-007",
-    img: "",
-    colourText: "Sand",
-    hex: "#C2A078",
-  },
+  // {
+  //   id: "colour-005",
+  //   img: "",
+  //   colourText: "Navy Blue",
+  //   hex: "#173B70",
+  // },
+  // {
+  //   id: "colour-006",
+  //   img: "",
+  //   colourText: "Gray",
+  //   hex: "#A3A3A3",
+  // },
+  // {
+  //   id: "colour-007",
+  //   img: "",
+  //   colourText: "Sand",
+  //   hex: "#C2A078",
+  // },
 ];

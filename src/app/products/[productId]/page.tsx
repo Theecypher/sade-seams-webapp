@@ -1,6 +1,10 @@
+import BlackButton from "@/app/components/button/blackButton";
+import ProductColour from "@/app/components/product/Property/productColour/productColour";
+import ProductDescription from "@/app/components/product/Property/productDescription/productDescription";
 import SizeRuler from "@/app/components/product/Property/sizeChart";
 import { BrandData } from "@/app/sections/brand/brand";
 import formatAmount from "@/app/utils/formatAmoount";
+import { Heart } from "lucide-react";
 import Image from "next/image";
 
 type ProductPageProps = {
@@ -66,7 +70,7 @@ const ProductPage = async ({ params }: ProductPageProps) => {
         </div>
       </div>
 
-      <div className="flex flex-col px-3 py-0.5">
+      <div className="flex flex-col gap-3 px-3 py-0.5">
         {/* Product Name */}
         <div className="">
           <p className="text-[12px] font-semibold">{product.name}</p>
@@ -92,22 +96,23 @@ const ProductPage = async ({ params }: ProductPageProps) => {
         </div>
 
         <SizeRuler />
+
+        <ProductColour />
+
+        {/* Add to Cart Button */}
+        <div className="mt-1 w-full flex flex-col gap-2">
+          <p className="text-[10px] text-[#968989]">
+            30-day Returns: Store Credit
+          </p>
+          <div className="flex gap-2 items-center ">
+            <BlackButton className="w-full py-2.5  font-semibold">Add to Bag</BlackButton>
+            <Heart className="w-12 h-12 p-3  shrink-0 border border-black rounded-[100%]" />
+          </div>
+        </div>
+
+        <ProductDescription />
       </div>
     </div>
-
-    // <div className="flex flex-col w-full overflow-hidden">
-    //   <div className="flex gap-1 w-full overflow-x-auto shrink-0 ">
-    //     {images.map((item) => (
-    //       <img className="w-[450px] h-[450px] " src={item.img} alt="" />
-    //     ))}
-    //   </div>
-
-    //   <h1>{product.name}</h1>
-
-    //   <p>{formatAmount(Number(product.price))}</p>
-
-    //   <p>{product.description}</p>
-    // </div>
   );
 };
 
