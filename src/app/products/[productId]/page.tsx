@@ -54,9 +54,24 @@ const ProductPage = async ({ params }: ProductPageProps) => {
   console.log(discountedPrice);
 
   return (
-    <div className="flex flex-col">
-      <div>
-        <div className="flex gap-1 scrollbar-none animation duration-1000 ease-out motion-reduce:transition-none w-full overflow-x-auto shrink-0 ">
+    <div className="flex flex-col lg:flex-row w-full">
+      <div className="w-full lg:w-[70%]">
+        <div className="hidden lg:flex flex-wrap w-[20%]">
+          {images.map((item: any) => (
+            <div className="hidden lg:flex w-1/2 p-1">
+              <Image
+                src={item.img}
+                key={item.id}
+                width={300}
+                height={400}
+                alt=""
+              />
+            </div>
+          ))}
+        </div>
+
+        {/* Mobile Gallery  */}
+        <div className="flex lg:hidden gap-1 scrollbar-none animation duration-1000 ease-out motion-reduce:transition-none w-full overflow-x-auto shrink-0 ">
           {images.map((item) => (
             // <img className="w-[450px] h-[450px] " src={item.img} alt="" />
             <Image
